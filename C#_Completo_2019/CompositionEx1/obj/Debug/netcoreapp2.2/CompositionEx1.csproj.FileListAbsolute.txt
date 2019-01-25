@@ -1,0 +1,11 @@
+C:\Users\Dell\udemy\CompositionEx1\bin\Debug\netcoreapp2.2\CompositionEx1.deps.json
+C:\Users\Dell\udemy\CompositionEx1\bin\Debug\netcoreapp2.2\CompositionEx1.runtimeconfig.json
+C:\Users\Dell\udemy\CompositionEx1\bin\Debug\netcoreapp2.2\CompositionEx1.runtimeconfig.dev.json
+C:\Users\Dell\udemy\CompositionEx1\bin\Debug\netcoreapp2.2\CompositionEx1.dll
+C:\Users\Dell\udemy\CompositionEx1\bin\Debug\netcoreapp2.2\CompositionEx1.pdb
+C:\Users\Dell\udemy\CompositionEx1\obj\Debug\netcoreapp2.2\CompositionEx1.csprojAssemblyReference.cache
+C:\Users\Dell\udemy\CompositionEx1\obj\Debug\netcoreapp2.2\CompositionEx1.csproj.CoreCompileInputs.cache
+C:\Users\Dell\udemy\CompositionEx1\obj\Debug\netcoreapp2.2\CompositionEx1.AssemblyInfoInputs.cache
+C:\Users\Dell\udemy\CompositionEx1\obj\Debug\netcoreapp2.2\CompositionEx1.AssemblyInfo.cs
+C:\Users\Dell\udemy\CompositionEx1\obj\Debug\netcoreapp2.2\CompositionEx1.dll
+C:\Users\Dell\udemy\CompositionEx1\obj\Debug\netcoreapp2.2\CompositionEx1.pdb

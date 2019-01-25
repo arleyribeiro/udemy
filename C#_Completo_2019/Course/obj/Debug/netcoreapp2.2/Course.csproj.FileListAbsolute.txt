@@ -1,0 +1,11 @@
+C:\Users\Dell\udemy\Course\obj\Debug\netcoreapp2.2\Course.csprojAssemblyReference.cache
+C:\Users\Dell\udemy\Course\obj\Debug\netcoreapp2.2\Course.csproj.CoreCompileInputs.cache
+C:\Users\Dell\udemy\Course\obj\Debug\netcoreapp2.2\Course.AssemblyInfoInputs.cache
+C:\Users\Dell\udemy\Course\obj\Debug\netcoreapp2.2\Course.AssemblyInfo.cs
+C:\Users\Dell\udemy\Course\bin\Debug\netcoreapp2.2\Course.deps.json
+C:\Users\Dell\udemy\Course\bin\Debug\netcoreapp2.2\Course.runtimeconfig.json
+C:\Users\Dell\udemy\Course\bin\Debug\netcoreapp2.2\Course.runtimeconfig.dev.json
+C:\Users\Dell\udemy\Course\bin\Debug\netcoreapp2.2\Course.dll
+C:\Users\Dell\udemy\Course\bin\Debug\netcoreapp2.2\Course.pdb
+C:\Users\Dell\udemy\Course\obj\Debug\netcoreapp2.2\Course.dll
+C:\Users\Dell\udemy\Course\obj\Debug\netcoreapp2.2\Course.pdb
