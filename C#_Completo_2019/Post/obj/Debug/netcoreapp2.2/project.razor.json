@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Dell\\udemy\\C#_Completo_2019\\Post\\Post.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
