@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { 
   MatInputModule, 
   MatCardModule, 
@@ -32,7 +33,8 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    HttpClientModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]
