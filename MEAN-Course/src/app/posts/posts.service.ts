@@ -48,4 +48,13 @@ export class PostsService {
                 this.postsUpdated.next([...this.posts]);
             });
     }
+
+    deletePost(postId: string) {
+        this.http.delete(this.apiRoot + 'api/posts/'+ postId)
+            .subscribe(res => {
+                const updatedPosts = this.posts.filter(post => post.id !== postId);
+                this.posts = updatedPosts;
+                this.postsUpdated.next([...this.posts]);
+            });
+    }
 }
