@@ -41,9 +41,11 @@ export class PostsService {
             title: title,
             content: content
         };
-        this.http.post<{ message: string }>(this.apiRoot + 'api/posts', post)
+        this.http.post<{ message: string, postId: string }>(this.apiRoot + 'api/posts', post)
             .subscribe(res => {
                 console.log(res.message);
+                const id = res.postId;
+                post.id = id;
                 this.posts.push(post);
                 this.postsUpdated.next([...this.posts]);
             });
