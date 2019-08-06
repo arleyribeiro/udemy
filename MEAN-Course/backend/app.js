@@ -1,5 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const Post = require('./models/post');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb+srv://arley:hl6tZw2NNYUwIFrY@cluster0-mhqji.mongodb.net/node-angular?retryWrites=true&w=majority')
+    .then(() => {
+        console.log('Connected to database!')
+    })
+    .catch(() => {
+        console.log('Connection failed!');
+    });
 
 const app = express();
 
@@ -16,8 +26,12 @@ app.use((req, res, next) => {
 });
 
 app.post("/api/posts", (req, res, next) => {
-    const posts = req.body;
-    console.log(posts);
+    const post = new Post({
+        title: req.body.title,
+        content: req.body.content
+    });
+    console.log(post);
+    post.save();
     res.status(201).json({
         message: "Post added successfully!"
     });
@@ -25,17 +39,13 @@ app.post("/api/posts", (req, res, next) => {
 
 
 app.get("/api/posts", (req, res, next) => {
-    const posts = [
-        { id: '1', title: 'First Post', content: 'First Content'},
-        { id: '2', title: 'Second Post', content: 'Second Content'},
-        { id: '3', title: 'Third Post', content: 'Third Content'},
-        { id: '4', title: 'Fouth Post', content: 'Fouth Content'},
-        { id: '5', title: 'Fifth Post', content: 'Fifth Content'}
-    ]
-    res.status(200).json({
-        message: 'Posts fetched successfully!',
-        posts: posts
-    });
+    Post.find()
+        .then(documents => {
+            res.status(200).json({
+                message: 'Posts fetched successfully!',
+                posts: documents
+            });            
+        });
 });
 
 module.exports = app;
