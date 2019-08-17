@@ -12,7 +12,8 @@ import {
   MatCardModule, 
   MatButtonModule,
   MatToolbarModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatProgressSpinnerModule
 } from '@angular/material';
 
 import { PostCreateComponent } from './posts/post-create/post-create.component';
@@ -34,7 +35,8 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    HttpClientModule
+    HttpClientModule,
+    MatProgressSpinnerModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]
